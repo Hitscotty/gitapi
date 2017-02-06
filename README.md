@@ -1,6 +1,6 @@
 # gitapi
 
-You can get started with this using/helping with this plugin by:
+You can get started using/helping with this plugin by:
  ``` bash    
 git clone https://github.com/Hitscotty/gitapi.git && cd gitapi 
 npm install 
