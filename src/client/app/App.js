@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import ProjectComponent from './ProjectComponent';
 
 ReactDOM.render(
-  <div>
-  <h1> Projects View </h1>
+  <section>
+  <center><h1> Projects View </h1></center>
   <ProjectComponent />
-  </div>,
+  </section>,
   document.getElementById('root')
 );

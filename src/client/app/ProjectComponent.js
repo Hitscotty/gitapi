@@ -4,11 +4,9 @@ import Projects from './Projects';
 import ProjectItem from './ProjectItem';
 import styles from './test.css';
 import css from './assets/css/style.css';
-import sass from '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+//import sass from '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 const config = require('../../../config.js');
-
-//import style from '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 class ProjectComponent extends Component {
 
