@@ -30,3 +30,6 @@ npm start && nodemon
  figured out how to chain those commands, but hey~ sometimes it works yolo.     
     
 
+# Github Api
+
+if you need to get a client_id and client_secret, you can get one [here](https://github.com/settings/developers) and then select `register new application` and create a new app to get your credentials.
