@@ -1,3 +1,19 @@
+html, body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: left;
+  list-style-type: none;
+}
+
 .biggers{
   color: red;
 }

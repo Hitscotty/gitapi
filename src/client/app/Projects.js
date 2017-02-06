@@ -9,18 +9,29 @@ class Projects extends Component {
       projectItems = this.props.project.map(repo => {
         console.log(repo); // for debugging
         return (
-          <ProjectItem key={repo.nam} repos={repo} />
+          <ProjectItem key={repo.id} repos={repo} />
         );
       })
     }
 
     return (
-      <div>
-        <h1> Projects Found </h1>
-        <li>
+      <section className="wrapper style5">
+        <center><h4> Projects </h4></center>
+        <div className="table-wrapper">
+          <table className="icons">
+            <thead>
+              <tr>
+                <th>Project</th>
+                <th>Description</th>
+                <th>GitHub</th>
+              </tr>
+            </thead>
+
             {projectItems}
-        </li>
-      </div>
+
+          </table>
+        </div>
+      </section>
     );
 
   }
